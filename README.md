@@ -30,6 +30,11 @@ A complete Azure-based data pipeline that ingests raw IoT sensor files (air qual
 | Monitor          | **Azure Monitor + ADF logs** | Run-status alerts · Cost optimization              |
 
 ---
+## Architecture
+
+![Architecture Diagram](Smart City Pipeline.drawio.png)
+
+---
 
 ## Quick tour
 
