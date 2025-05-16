@@ -1,0 +1,6 @@
+sensor_id,timestamp,location,vehicle_count,avg_speed_kmh
+T1,2024-09-01 00:00:00,Eastern Freeway,1000,80
+T2,2024-09-01 01:00:00,Melbourne CBD,800,30
+T3,2024-09-01 02:00:00,West Gate Freeway,1200,60
+T4,2024-09-01 03:00:00,St Kilda Road,600,50
+T5,2024-09-01 04:00:00,Monash Freeway,1500,70

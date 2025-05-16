@@ -1,0 +1,6 @@
+sensor_id,timestamp,location,energy_consumed_kwh,peak_load_mw
+E1,2024-09-01 00:00:00,Residential - South Yarra,200,12
+E2,2024-09-01 01:00:00,Commercial - Melbourne CBD,1000,35
+E3,2024-09-01 02:00:00,Industrial - Laverton,1200,50
+E4,2024-09-01 03:00:00,Richmond,500,20
+E5,2024-09-01 04:00:00,Essendon,600,25
