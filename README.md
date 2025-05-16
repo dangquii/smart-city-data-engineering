@@ -35,10 +35,10 @@ A complete Azure-based data pipeline that ingests raw IoT sensor files (air qual
 
 | Component         | File / Notebook                                 |
 |------------------|--------------------------------------------------|
-| ADF pipeline      | `adf_pipeline.png`                        |
 | PySpark notebook  | [`SensorProcessing.ipynb`](SensorProcessing.ipynb) |
 | CosmosDB script   | [`write_cosmosdb.py`](write_cosmosdb.py)               |
 
+![ADF Pipeline](adf_pipeline.png)
 ---
 
 ## Run it yourself
