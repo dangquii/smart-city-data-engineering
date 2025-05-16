@@ -33,7 +33,7 @@ A complete Azure pipeline that ingests raw IoT sensor files (air-quality, traffi
 
 ## Quick tour
 
-![ADF pipeline](images/adf_pipeline.png)  
+![ADF pipeline](adf_pipeline.png)  
 ![PySpark summary](images/pyspark_output.png)  
 ![Power BI](images/powerbi_dashboard.png)
 
