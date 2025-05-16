@@ -34,7 +34,7 @@ A complete Azure pipeline that ingests raw IoT sensor files (air-quality, traffi
 ## Quick tour
 
 ![ADF pipeline](adf_pipeline.png)  
-! Databricks notebook: [SensorProcessing.ipynb](notebooks/SensorProcessing.ipynb)
+! Databricks notebook: [SensorProcessing.ipynb](SensorProcessing.ipynb)
 
 ![Power BI](images/powerbi_dashboard.png)
 
