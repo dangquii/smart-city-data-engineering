@@ -36,7 +36,8 @@ A complete Azure pipeline that ingests raw IoT sensor files (air-quality, traffi
 ![ADF pipeline](adf_pipeline.png)  
 ![Visualization](totalco2emissionsperday.png)
 
-! Databricks notebook: [SensorProcessing.ipynb](SensorProcessing.ipynb)
+## Databricks notebook: [SensorProcessing.ipynb](SensorProcessing.ipynb)
+## Cosmos DB: [write_cosmosdb.py](write_cosmosdb.py)
 
 ---
 
