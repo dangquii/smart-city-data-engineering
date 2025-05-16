@@ -32,7 +32,7 @@ A complete Azure-based data pipeline that ingests raw IoT sensor files (air qual
 ---
 ## Architecture
 
-![Architecture Diagram](Smart City Pipeline.drawio.png)
+![Architecture Diagram](SmartCityPipeline.png)
 
 ---
 
