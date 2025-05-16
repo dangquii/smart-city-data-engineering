@@ -8,7 +8,7 @@ A complete Azure pipeline that ingests raw IoT sensor files (air-quality, traffi
 1. **Azure Blob Storage** – raw & processed zones  
 2. **Azure Data Factory** – hourly Copy-Data pipeline  
 3. **Azure Databricks / PySpark** – cleans & aggregates ≈ 50 MB per hour  
-4. **Cosmos DB** – curated JSON documents for fast queries *(optional)*  
+4. **Cosmos DB** – curated JSON documents for fast queries 
 5. **Power BI** – average AQI, traffic-density map, energy peaks  
 
 ---
@@ -25,9 +25,9 @@ A complete Azure pipeline that ingests raw IoT sensor files (air-quality, traffi
 | **Ingest** | **Azure Data Factory** | Linked Services · Datasets · Scheduled trigger |
 | **Landing storage** | **Azure Blob Storage** | Raw & processed zone design |
 | **Process** | **Databricks (PySpark)** | Schema casting · `groupBy` aggregations |
-| **Curated storage** | **Cosmos DB** *(optional)* | SDK writes · partition-key strategy |
+| **Curated storage** | **Cosmos DB** | SDK writes · partition-key strategy |
 | **Visualise** | **Power BI** | Interactive slicers · KPI cards · heat-map |
-| **Ops / Monitor** | Azure Monitor + ADF logs | Run-status alerts · cost control |
+| **Ops / Monitor** | **Azure Monitor + ADF logs** | Run-status alerts · cost control |
 
 ---
 
