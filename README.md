@@ -47,13 +47,12 @@ A complete Azure pipeline that ingests raw IoT sensor files (air-quality, traffi
 1. Clone the repo and upload sample CSVs to `data/sample/`.  
 2. Import **`infrastructure/ADF_pipeline.json`** into Azure Data Factory and update connection strings.  
 3. Import **`notebooks/SensorProcessing.ipynb`** into Databricks, attach a cluster, run all cells.  
-4. *(Optional)* Edit **`config_cosmos.py`** with your Cosmos DB URI/key and run the write step.  
-5. Open **`dashboard.pbix`** in Power BI Desktop, point it to the curated layer, and refresh.
+
 
 ---
 
 ## About me
-**Phu Qui Dang ｜ Data Analyst 
+**Phu Qui Dang** ｜ Data Analyst 
 SQL · Python/pandas · Azure · Power BI  
 
 [LinkedIn](https://www.linkedin.com/in/phu-qui-dang-706bb1218/) | [GitHub](https://github.com/dangquii)
