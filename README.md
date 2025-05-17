@@ -44,6 +44,8 @@ A complete Azure-based data pipeline that ingests raw IoT sensor files (air qual
 | CosmosDB script   | [`write_cosmosdb.py`](write_cosmosdb.py)               |
 
 ![ADF Pipeline](adf_pipeline.png)
+
+![Smart City Dashboard PowerBI(Smart City Dashboard_PowerBI.png)
 ---
 
 ## Run it yourself
