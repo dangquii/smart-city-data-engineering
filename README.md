@@ -34,6 +34,9 @@ A complete Azure-based data pipeline that ingests raw IoT sensor files (air qual
 
 ![Architecture Diagram](SmartCityPipeline.png)
 
+![Smart City Dashboard PowerBI](SmartCItyDashboard_PowerBI.png)
+
+
 ---
 
 ## Quick tour
