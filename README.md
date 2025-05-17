@@ -45,7 +45,7 @@ A complete Azure-based data pipeline that ingests raw IoT sensor files (air qual
 
 ![ADF Pipeline](adf_pipeline.png)
 
-![Smart City Dashboard PowerBI(Smart City Dashboard_PowerBI.png)
+![Smart City Dashboard PowerBI](SmartCityDashboard_PowerBI.png)
 ---
 
 ## Run it yourself
