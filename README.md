@@ -35,29 +35,29 @@ A complete Azure-based data pipeline that ingests raw IoT sensor files (air qual
 
 ## Architecture
 
-![Architecture Diagram](SmartCityPipeline.png)
+![Architecture Diagram](visualizations/SmartCityPipeline.png)
 
-![Smart City Dashboard PowerBI](SmartCItyDashboard_PowerBI.png)
+![Smart City Dashboard PowerBI](visualizations/SmartCityDashboard_PowerBI.png)
 
 ---
 
 ## Quick tour
 
-| Component           | File / Notebook                                     |
-|--------------------|------------------------------------------------------|
-| PySpark notebook   | [`SensorProcessing.ipynb`](SensorProcessing.ipynb)   |
-| CosmosDB script    | [`write_cosmosdb.py`](write_cosmosdb.py)             |
-| ADF Pipeline       | ![ADF Pipeline](adf_pipeline.png)                    |
+| Component           | File / Notebook                                              |
+|--------------------|---------------------------------------------------------------|
+| PySpark notebook   | [`SensorProcessing.ipynb`](notebooks/SensorProcessing.ipynb)  |
+| CosmosDB script    | [`write_cosmosdb.py`](scripts/write_cosmosdb.py)              |
+| ADF Pipeline       | ![ADF Pipeline](visualizations/adf_pipeline.png)              |
 
 ---
 
 ## Run it yourself
 
-1. Clone this repo and upload sample CSVs into `data/sample/`  
+1. Clone this repo and upload sample CSVs into `data/`  
 2. Import `infrastructure/ADF_pipeline.json` into Azure Data Factory and update connection strings  
 3. Import and run `notebooks/SensorProcessing.ipynb` inside Databricks  
 4. Run `scripts/write_cosmosdb.py` to write results into Cosmos DB  
-5. Open `SmartCItyDashboard_PowerBI.png` to view the Power BI dashboard or build your own `.pbix` version for interactive exploration  
+5. Open `visualizations/SmartCItyDashboard_PowerBI.png` to view the Power BI dashboard or build your own `.pbix` version for interactive exploration  
 
 ---
 
